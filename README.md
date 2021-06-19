@@ -2,9 +2,9 @@
 a small function that matches two binary arrays and returns a matching percentage based on the user-specified matching accuracy rate(How accurately to match)
 Basically, it takes two binary arrays, shrinks them into 2 new arrays (processed arrays), compares those shrunk arrays, and returns a matching percentage(%).
 The user can control how much the raw arrays will be shrunk with the rate of matching accuracy.
-I have already explained this concept in the **Diagramf** file of this project.
+I have already explained this concept in the **Diagram** file of this project.
 
-
+![AMM Diagram Page 1](https://raw.githubusercontent.com/nirmalpaul383/AMM-Advance-Matching-Mechanism/main/Diagram%20P1.jpg)
 ............................................................................................................................
 
 This project is originally made by me(N Paul). My github profile https://github.com/nirmalpaul383/
