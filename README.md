@@ -10,7 +10,7 @@ I have already explained this concept in the **Diagram** of this project.
 
 ............................................................................................................................
 
-To use this JavaScript file you can either download/clone it and then use 'amm.js' file or use it directly using `https://raw.githubusercontent.com/nirmalpaul383/AMM-Advance-Matching-Mechanism/main/amm.js`. After downloading/including this JS file use the **match( )**
+To use this JavaScript file you can either download/clone it and then use 'amm.js' file or use it directly using `https://raw.githubusercontent.com/nirmalpaul383/AMM-Advance-Matching-Mechanism/main/amm.js`. After downloading/including this JS file use the **match(input1, input2, rateOfAccuracy)**
 ```javascript
 let input1 = [0, 1, 1, 0, 1, 0, 1, 0, 1, 1]; //Example BitArray1
 let input2 = [0, 0, 0, 1, 1, 1, 1, 1, 0, 1]; //Example BitArray2
