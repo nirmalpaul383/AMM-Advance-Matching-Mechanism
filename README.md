@@ -10,6 +10,20 @@ I have already explained this concept in the **Diagram** of this project.
 
 ............................................................................................................................
 
+To use this JavaScript file you can either download/clone it and then use 'amm.js' file or use it directly using `https://raw.githubusercontent.com/nirmalpaul383/AMM-Advance-Matching-Mechanism/main/amm.js`. After downloading/including this JS file use the **match( )**
+```javascript
+let input1 = [0, 1, 1, 0, 1, 0, 1, 0, 1, 1]; //Example BitArray1
+let input2 = [0, 0, 0, 1, 1, 1, 1, 1, 0, 1]; //Example BitArray2
+
+
+match(input1, input2, 1) //100% rate of matching Accuracy ; returns 40%
+match(input1, input2, 2) //50% rate of matching Accuracy ; returns 80%
+match(input1, input2, 4) //25% rate of matching Accuracy ; returns 100%
+``` 
+function to use it, where input1 refers to "BitArray1" , input2 refers to "BitArray2" and rateOfAccuracy refers to "user-specified matching accurecy rate"(How accuretly to match)
+
+............................................................................................................................
+
 This project is originally made by me(N Paul). My github profile https://github.com/nirmalpaul383/
 My youtube page https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/
 Facebook Page https://facebook.com/a.new.way.Technical/
